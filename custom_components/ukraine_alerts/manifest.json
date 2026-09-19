@@ -1,0 +1,14 @@
+{
+  "domain": "ukraine_alerts",
+  "name": "Ukraine Alerts",
+  "codeowners": ["@Kuresha-HA"],
+  "config_flow": true,
+  "documentation": "https://github.com/Kuresha-HA/Ukraine-Alerts",
+  "issue_tracker": "https://github.com/Kuresha-HA/Ukraine-Alerts/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "version": "0.1.5",
+  "requirements": [
+    "uasiren==0.0.1"
+  ]
+}
