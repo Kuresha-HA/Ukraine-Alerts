@@ -1,0 +1,23 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Esta región ya está configurada",
+      "cannot_connect": "No se puede conectar",
+      "max_regions": "Puedes configurar hasta 5 regiones",
+      "rate_limit": "Demasiadas solicitudes",
+      "timeout": "Se agotó el tiempo de conexión",
+      "unknown": "Error desconocido"
+    },
+    "step": {
+      "community": {"data": {"region": "Comunidad"}, "description": "Selecciona una comunidad concreta dentro del distrito seleccionado"},
+      "district": {"data": {"region": "Distrito"}, "description": "Selecciona un distrito dentro de la región seleccionada"},
+      "user": {"data": {"region": "Región"}, "description": "Selecciona una región"}
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "yellow": {"name": "Amenaza amarilla"}, "red": {"name": "Amenaza roja"}, "rocket": {"name": "Amenaza de misiles"}, "drone": {"name": "Amenaza de drones"}, "unknown": {"name": "Amenaza desconocida"}, "air": {"name": "Alerta aérea"}, "urban_fights": {"name": "Combates urbanos"}, "artillery": {"name": "Ataque de artillería"}, "chemical": {"name": "Amenaza química"}, "nuclear": {"name": "Amenaza nuclear"}
+    },
+    "sensor": {"threat_level": {"name": "Nivel de amenaza", "state": {"safe": "Seguro", "yellow": "Amarillo", "red": "Rojo"}}}
+  }
+}
