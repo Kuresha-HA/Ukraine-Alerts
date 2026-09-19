@@ -5,8 +5,8 @@
   "config_flow": true,
   "documentation": "https://github.com/Kuresha-HA/Ukraine-Alerts",
   "integration_type": "service",
-  "issue_tracker": "https://github.com/Kuresha-HA/Ukraine-Alerts/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Kuresha-HA/Ukraine-Alerts/issues",
   "requirements": [
     "uasiren==0.0.1"
   ],
