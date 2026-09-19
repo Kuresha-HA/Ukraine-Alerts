@@ -115,21 +115,27 @@ You can create additional entries if you need a different regional configuration
 
 ### HACS — recommended
 
-1. Open **HACS → Integrations**.
-2. Search for **Ukraine Alerts**.
-3. Install the integration.
-4. Restart Home Assistant.
-5. Go to **Settings → Devices & services → Add Integration**.
-6. Select **Ukraine Alerts**.
-7. Choose the regions to monitor.
+The easiest way to install Ukraine Alerts through HACS is to use the button below:
 
-If you are installing directly from GitHub as a custom repository:
+[![Open your Home Assistant instance and show the Ukraine Alerts repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Kuresha-HA&repository=Ukraine-Alerts&category=integration)
+
+If the button doesn't work, open **HACS → Integrations** and search for **Ukraine Alerts**. If the repository has not yet been added to the HACS default repository list, add it as a custom repository:
 
 ```
 https://github.com/Kuresha-HA/Ukraine-Alerts
 ```
 
 Select **Integration** as the repository type.
+
+### Add the integration
+
+After installing the integration, you can open its Home Assistant configuration flow directly:
+
+[![Add Ukraine Alerts to your Home Assistant instance.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start?domain=ukraine_alerts)
+
+Or manually go to:
+
+**Settings → Devices & services → Add Integration → Ukraine Alerts**
 
 ### Manual installation
 
